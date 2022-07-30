@@ -1,9 +1,20 @@
 # Desafio Tools Challenge Java
-Tools Java Challenge
+Implementar uma API de Pagamentos.
 
 ## Sobre o Projeto:
 Você trabalha em um Banco, na área de cartões de crédito e faz parte do Time Elite.
-Implementar uma API de Pagamentos.
+
+## Tecnología utilizada: 
+
+| Tecnología         | Versão     |
+|--------------------|------------|
+| Spring-Boot        |  2.7.2     |
+| Spring Data JPA    |            |
+| JUnit              |  5         |
+| Geren. Dependecias |  mavem     |
+| Java JDK           |  17        |
+| Banco de Dados     |  H2        |
+
 
 ### As operações serão as seguintes:
 #### Pagamento:
@@ -20,3 +31,4 @@ Implementar uma API de Pagamentos.
 - Transacao > id: Deve ser único
 - Transacao > Status: “AUTORIZADO”, “NEGADO”
 - formaPagamento > Tipo: “AVISTA”, “PARCELADO LOJA”, “PARCELADO EMISSOR”
+
