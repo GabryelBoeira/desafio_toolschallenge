@@ -9,7 +9,6 @@ Você trabalha em um Banco, na área de cartões de crédito e faz parte do Time
 | Tecnología         | Versão     |
 |--------------------|------------|
 | Spring-Boot        |  2.7.2     |
-| Spring Data JPA    |            |
 | JUnit              |  5         |
 | Geren. Dependecias |  mavem     |
 | Java JDK           |  17        |
