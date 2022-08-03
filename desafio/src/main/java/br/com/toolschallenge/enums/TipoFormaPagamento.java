@@ -1,14 +1,14 @@
 package br.com.toolschallenge.enums;
 
-public enum FormaPagamentoTransacao {
+public enum TipoFormaPagamento {
 
-    A_VISTA("Pagamento a vista"),
+    AVISTA("Pagamento a vista"),
     PARCELADO_LOJA("Parcelamento realizado pela Loja"),
     PARCELADO_EMISSOR("Parcelamento realizado pelo emissor");
 
     private String descricao;
 
-    FormaPagamentoTransacao(String descricao) {
+    TipoFormaPagamento(String descricao) {
         this.descricao = descricao;
     }
 

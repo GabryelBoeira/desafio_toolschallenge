@@ -1,13 +1,14 @@
 package br.com.toolschallenge.enums;
 
-public enum StatusTransacao {
+public enum TipoStatusTransacao {
 
     AUTORIZADO("Transação autorizada"),
-    NEGADO("Transação Negada");
+    NEGADO("Transação Negada"),
+    CANCELADO("Transação Negada");
 
     private String descricao;
 
-    StatusTransacao(String descricao) {
+    TipoStatusTransacao(String descricao) {
         this.descricao = descricao;
     }
 
